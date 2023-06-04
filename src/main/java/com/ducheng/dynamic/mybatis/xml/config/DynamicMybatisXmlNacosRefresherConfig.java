@@ -63,7 +63,7 @@ public class DynamicMybatisXmlNacosRefresherConfig implements ApplicationListene
 
                 String[] mapperLocations = mybatisProperties.getMapperLocations();
                 List<Resource> resources = resolveMapperLocations(Arrays.asList(mapperLocations));
-                String changeName = "BookMapper.xml";
+                String changeName = dynamicMybatisXmlProperties.getXmlName();
 
                 for (SqlSessionFactory sqlSessionFactory : sqlSessionFactories) {
                     try {
