@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ducheng.dynamic.mybatis.xml.config.DynamicMybatisXmlNacosRefresherConfig
+
+import org.springframework.boot.context.properties.EnableConfigurationProperties=\
+com.ducheng.dynamic.mybatis.xml.config.DynamicMybatisXmlProperties
