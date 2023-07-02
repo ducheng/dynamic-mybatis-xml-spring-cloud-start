@@ -12,7 +12,7 @@
 
 	<groupId>com.github.ducheng</groupId>
 	<artifactId>dynamic-mybatis-xml-spring-cloud-starter</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>dynamic-mybatis-xml-spring-cloud-starter</name>
